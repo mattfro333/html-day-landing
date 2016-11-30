@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600');
+
+
+html {
+   font-size: 16px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+   font-family: 'Open Sans', sans-serif;
+   color: rgba(0,0,0,0.8);
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+   font-size: 2.8rem;
+}
+
+h3{
+   font-size: 2.4rem;
+}
+
+
+
+.main-wrapper {
+   height:100vh;
+   padding: 24px 24px 0 24px;
+}
+
+.main-header {
+   width:100%;
+   height:55px;
+   margin-bottom: 24px;
+}
+
+.logo {
+   display: inline-block;
+   font-family: 'Oswald', sans-serif;
+}
+.menu {
+   display: inline-block;
+   float: right;
+   width:50px;
+   height:50px;
+   background: #000;
+}
+
+.image-block {
+  background-image: url('http://alumni.kennesaw.edu/images/owls/owlface.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+   width:100%;
+   height:400px;
+
+
+}
+ .inner-content {
+   text-align: center;
+ }
+
+.content-small-header {
+  text-align: center;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  margin-bottom: 16px;
+}
+  .content-large-header {
+    text-align: center;
+    font-size: 2.2rem;
+  }
+  .content-p {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    line-height: normal;
+    font-size: 1rem;
+  }
